@@ -1,5 +1,8 @@
 from sumar import sumar
 from restar import restar
+from dividir import dividir
+from multiplicar import multiplicar
+from exponente import elevar_cuadrado
 
 
 def main():
@@ -29,7 +32,7 @@ def main():
         print("Resultado:", multiplicar(a, b))
     elif opcion == 5:
         a = float(input("Ingresa el número: "))
-        print("Resultado:", elevar(a))
+        print("Resultado:", elevar_cuadrado(a))
     else:
         print("Opción no válida")
 
